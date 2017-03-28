@@ -1,5 +1,3 @@
-USE journeys;
-
 ALTER TABLE `orders` DROP FOREIGN KEY `orders_fk0`;
 
 ALTER TABLE `orders` DROP FOREIGN KEY `orders_fk1`;

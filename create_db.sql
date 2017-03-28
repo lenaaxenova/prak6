@@ -1,13 +1,11 @@
-USE journeys;
-
 CREATE TABLE `companies` (
-	`company_id` bigint(11) NOT NULL,
+	`company_id` bigint(11) AUTO_INCREMENT,
 	`company_name` varchar(255) NOT NULL,
 	PRIMARY KEY (`company_id`)
 );
 
 CREATE TABLE `clients` (
-	`client_id` bigint(11) NOT NULL,
+	`client_id` bigint(11) AUTO_INCREMENT,
 	`first_name` varchar(55) NOT NULL,
 	`middle_name` varchar(55) NOT NULL,
 	`last_name` varchar(55) NOT NULL,
@@ -20,7 +18,7 @@ CREATE TABLE `clients` (
 );
 
 CREATE TABLE `orders` (
-	`order_id` bigint(11) NOT NULL,
+	`order_id` bigint(11) AUTO_INCREMENT,
 	`client_id` bigint(11) NOT NULL,
 	`journey_id` bigint(11) NOT NULL,
 	`route_start_id` bigint(11) NOT NULL,
@@ -30,19 +28,19 @@ CREATE TABLE `orders` (
 );
 
 CREATE TABLE `directions` (
-	`direction_id` bigint(11) NOT NULL,
+	`direction_id` bigint(11) AUTO_INCREMENT,
 	`direction_name` varchar(255) NOT NULL,
 	PRIMARY KEY (`direction_id`)
 );
 
 CREATE TABLE `stations` (
-	`station_id` bigint(11) NOT NULL,
+	`station_id` bigint(11) AUTO_INCREMENT,
 	`station_name` varchar(255) NOT NULL,
 	PRIMARY KEY (`station_id`)
 );
 
 CREATE TABLE `journeys` (
-	`journey_id` bigint(11) NOT NULL,
+	`journey_id` bigint(11) AUTO_INCREMENT,
 	`direction_id` bigint(11) NOT NULL,
 	`company_id` bigint(11) NOT NULL,
 	`number_of_places` bigint(11) NOT NULL,
@@ -52,7 +50,7 @@ CREATE TABLE `journeys` (
 );
 
 CREATE TABLE `routes` (
-	`route_id` bigint(11) NOT NULL,
+	`route_id` bigint(11) AUTO_INCREMENT,
 	`journey_id` bigint(11) NOT NULL,
 	`station_id` bigint(11) NOT NULL,
 	`time_of_stop` int(11) NOT NULL,
