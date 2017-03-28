@@ -16,11 +16,16 @@ public class CompanyDAO extends AbstractDAO<Company> {
     @SuppressWarnings("unchecked")
     public List<Client> findAllClients(Company c) {
     	List<Journey> journeys = (List<Journey>)getCurrentSession().createCriteria(Journey.class).add(Restrictions.eq("company", c)).list();
-    	List<Client> client = new ArrayList();
+    	List<Order> orders = (List<Order>)getCurrentSession().createCriteria(Order.class).list();
+    	List<Client> clients = new ArrayList<Client>();
     	for (Journey j: journeys) {
-    		
+    		for(Order o: orders) {
+    			if (o.get_journey().get_journey_id() == j.get_journey_id()) {
+    				clients.add(o.get_client());
+    			}
+    		}
     	}
     	
-        return (List<Client>)getCurrentSession().createCriteria(Order.class).add(Restrictions.eq("company", c)).setProjection(Projections.property("client")).list();
+        return clients;
     }
 }

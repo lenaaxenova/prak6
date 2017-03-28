@@ -53,7 +53,7 @@ public class JourneyDAO extends AbstractDAO<Journey> {
 
     @SuppressWarnings("unchecked")
     public List<MyEntry<Journey, Date>> getSheduleWithStation(Station s) {
-        List<Journey> journeys = (List<Journey>)getCurrentSession().createCriteria(Route.class).add(Restrictions.eq("station", s)).setProjection(Projections.property("journey")).addOrder(org.hibernate.criterion.Order.asc("start_date")).list();
+        List<Journey> journeys = (List<Journey>)getCurrentSession().createCriteria(Route.class).add(Restrictions.eq("station", s)).setProjection(Projections.property("journey")).list();
 
         List<MyEntry<Journey, Date>> shedule = new ArrayList<MyEntry<Journey, Date>>();
         for(Journey j: journeys) {

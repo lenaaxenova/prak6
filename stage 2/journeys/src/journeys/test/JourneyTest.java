@@ -96,7 +96,7 @@ public class JourneyTest {
   @Test
   public void getFullShedule() {
       List<MyEntry<Journey, Date>> shedule = journeydao.getFullShedule();
-      Assert.assertTrue(shedule.size() == 9);
+      Assert.assertTrue(shedule.size() == 3);
   }
 
   @Test
