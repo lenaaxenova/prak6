@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 15 05:18:43 MSK 2017</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3356 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='journeys.test.JourneyTest.delete()'><b>delete</b><br>Test class: journeys.test.JourneyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.JourneyTest@d1af89</td></tr>
+<tr>
+<td title='journeys.test.CompanyTest.delete()'><b>delete</b><br>Test class: journeys.test.CompanyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.CompanyTest@646db9</td></tr>
+<tr>
+<td title='journeys.test.StationTest.delete()'><b>delete</b><br>Test class: journeys.test.StationTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.StationTest@1374a5e</td></tr>
+<tr>
+<td title='journeys.test.RouteTest.delete()'><b>delete</b><br>Test class: journeys.test.RouteTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.RouteTest@71e53b</td></tr>
+<tr>
+<td title='journeys.test.OrderTest.delete()'><b>delete</b><br>Test class: journeys.test.OrderTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.OrderTest@1b7a79b</td></tr>
+<tr>
+<td title='journeys.test.DirectionTest.delete()'><b>delete</b><br>Test class: journeys.test.DirectionTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.DirectionTest@950e31</td></tr>
+<tr>
+<td title='journeys.test.ClientTest.delete()'><b>delete</b><br>Test class: journeys.test.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.ClientTest@17dd107</td></tr>
+<tr>
+<td title='journeys.test.JourneyTest.findAll()'><b>findAll</b><br>Test class: journeys.test.JourneyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.JourneyTest@d1af89</td></tr>
+<tr>
+<td title='journeys.test.CompanyTest.findAll()'><b>findAll</b><br>Test class: journeys.test.CompanyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.CompanyTest@646db9</td></tr>
+<tr>
+<td title='journeys.test.StationTest.findAll()'><b>findAll</b><br>Test class: journeys.test.StationTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.StationTest@1374a5e</td></tr>
+<tr>
+<td title='journeys.test.RouteTest.findAll()'><b>findAll</b><br>Test class: journeys.test.RouteTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.RouteTest@71e53b</td></tr>
+<tr>
+<td title='journeys.test.OrderTest.findAll()'><b>findAll</b><br>Test class: journeys.test.OrderTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.OrderTest@1b7a79b</td></tr>
+<tr>
+<td title='journeys.test.DirectionTest.findAll()'><b>findAll</b><br>Test class: journeys.test.DirectionTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.DirectionTest@950e31</td></tr>
+<tr>
+<td title='journeys.test.ClientTest.findAll()'><b>findAll</b><br>Test class: journeys.test.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.ClientTest@17dd107</td></tr>
+<tr>
+<td title='journeys.test.CompanyTest.findAllClients()'><b>findAllClients</b><br>Test class: journeys.test.CompanyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.CompanyTest@646db9</td></tr>
+<tr>
+<td title='journeys.test.ClientTest.findAllOrders()'><b>findAllOrders</b><br>Test class: journeys.test.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.ClientTest@17dd107</td></tr>
+<tr>
+<td title='journeys.test.JourneyTest.getClients()'><b>getClients</b><br>Test class: journeys.test.JourneyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.JourneyTest@d1af89</td></tr>
+<tr>
+<td title='journeys.test.RouteTest.getCost()'><b>getCost</b><br>Test class: journeys.test.RouteTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.RouteTest@71e53b</td></tr>
+<tr>
+<td title='journeys.test.OrderTest.getCost()'><b>getCost</b><br>Test class: journeys.test.OrderTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.OrderTest@1b7a79b</td></tr>
+<tr>
+<td title='journeys.test.JourneyTest.getFullShedule()'><b>getFullShedule</b><br>Test class: journeys.test.JourneyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.JourneyTest@d1af89</td></tr>
+<tr>
+<td title='journeys.test.JourneyTest.getOrders()'><b>getOrders</b><br>Test class: journeys.test.JourneyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.JourneyTest@d1af89</td></tr>
+<tr>
+<td title='journeys.test.RouteTest.getShedule()'><b>getShedule</b><br>Test class: journeys.test.RouteTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.RouteTest@71e53b</td></tr>
+<tr>
+<td title='journeys.test.RouteTest.getSheduleOfStops()'><b>getSheduleOfStops</b><br>Test class: journeys.test.RouteTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.RouteTest@71e53b</td></tr>
+<tr>
+<td title='journeys.test.JourneyTest.getSheduleWithDirection()'><b>getSheduleWithDirection</b><br>Test class: journeys.test.JourneyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.JourneyTest@d1af89</td></tr>
+<tr>
+<td title='journeys.test.JourneyTest.getSheduleWithStation()'><b>getSheduleWithStation</b><br>Test class: journeys.test.JourneyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.JourneyTest@d1af89</td></tr>
+<tr>
+<td title='journeys.test.JourneyTest.saveOrUpdate()'><b>saveOrUpdate</b><br>Test class: journeys.test.JourneyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.JourneyTest@d1af89</td></tr>
+<tr>
+<td title='journeys.test.CompanyTest.saveOrUpdate()'><b>saveOrUpdate</b><br>Test class: journeys.test.CompanyTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.CompanyTest@646db9</td></tr>
+<tr>
+<td title='journeys.test.StationTest.saveOrUpdate()'><b>saveOrUpdate</b><br>Test class: journeys.test.StationTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.StationTest@1374a5e</td></tr>
+<tr>
+<td title='journeys.test.RouteTest.saveOrUpdate()'><b>saveOrUpdate</b><br>Test class: journeys.test.RouteTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.RouteTest@71e53b</td></tr>
+<tr>
+<td title='journeys.test.OrderTest.saveOrUpdate()'><b>saveOrUpdate</b><br>Test class: journeys.test.OrderTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.OrderTest@1b7a79b</td></tr>
+<tr>
+<td title='journeys.test.DirectionTest.saveOrUpdate()'><b>saveOrUpdate</b><br>Test class: journeys.test.DirectionTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.DirectionTest@950e31</td></tr>
+<tr>
+<td title='journeys.test.ClientTest.saveOrUpdate()'><b>saveOrUpdate</b><br>Test class: journeys.test.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>journeys.test.ClientTest@17dd107</td></tr>
+</table><p>
+</body>
+</html>

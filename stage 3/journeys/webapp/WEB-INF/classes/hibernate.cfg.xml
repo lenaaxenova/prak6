@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+    <session-factory>
+      <!-- Mapping files -->
+      	<mapping class="journeys.entity.Client"/>
+      	<mapping class="journeys.entity.Company"/>
+      	<mapping class="journeys.entity.Direction"/>
+      	<mapping class="journeys.entity.Journey"/>
+      	<mapping class="journeys.entity.Order"/>
+      	<mapping class="journeys.entity.Route"/>
+      	<mapping class="journeys.entity.Station"/>
+    </session-factory>
+</hibernate-configuration>

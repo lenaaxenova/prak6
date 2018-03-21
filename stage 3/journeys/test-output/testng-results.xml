@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="32" passed="32">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3356" started-at="2017-05-15T02:18:43Z" finished-at="2017-05-15T02:18:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3356" started-at="2017-05-15T02:18:43Z" finished-at="2017-05-15T02:18:46Z">
+      <class name="journeys.test.OrderTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="delete()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="delete" duration-ms="59" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="afterMethod" is-config="true" duration-ms="10" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="findAll()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="findAll" duration-ms="131" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getCost()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="getCost" duration-ms="5" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCost -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="saveOrUpdate()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="saveOrUpdate" duration-ms="9" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveOrUpdate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.OrderTest@1b7a79b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- journeys.test.OrderTest -->
+      <class name="journeys.test.StationTest">
+        <test-method status="PASS" signature="delete()[pri:0, instance:journeys.test.StationTest@1374a5e]" name="delete" duration-ms="31" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.StationTest@1374a5e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.StationTest@1374a5e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="findAll()[pri:0, instance:journeys.test.StationTest@1374a5e]" name="findAll" duration-ms="20" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAll -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.StationTest@1374a5e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.StationTest@1374a5e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.StationTest@1374a5e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="saveOrUpdate()[pri:0, instance:journeys.test.StationTest@1374a5e]" name="saveOrUpdate" duration-ms="2" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveOrUpdate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.StationTest@1374a5e]" name="afterMethod" is-config="true" duration-ms="29" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- journeys.test.StationTest -->
+      <class name="journeys.test.DirectionTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.DirectionTest@950e31]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="delete()[pri:0, instance:journeys.test.DirectionTest@950e31]" name="delete" duration-ms="25" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.DirectionTest@950e31]" name="afterMethod" is-config="true" duration-ms="14" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.DirectionTest@950e31]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="findAll()[pri:0, instance:journeys.test.DirectionTest@950e31]" name="findAll" duration-ms="12" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAll -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.DirectionTest@950e31]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="saveOrUpdate()[pri:0, instance:journeys.test.DirectionTest@950e31]" name="saveOrUpdate" duration-ms="3" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveOrUpdate -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.DirectionTest@950e31]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.DirectionTest@950e31]" name="afterMethod" is-config="true" duration-ms="19" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- journeys.test.DirectionTest -->
+      <class name="journeys.test.RouteTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="delete()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="delete" duration-ms="38" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="afterMethod" is-config="true" duration-ms="37" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="findAll()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="findAll" duration-ms="61" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAll -->
+        <test-method status="PASS" signature="getCost()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="getCost" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCost -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getShedule()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="getShedule" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShedule -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getSheduleOfStops()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="getSheduleOfStops" duration-ms="29" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSheduleOfStops -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="saveOrUpdate()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="saveOrUpdate" duration-ms="6" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveOrUpdate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.RouteTest@71e53b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- journeys.test.RouteTest -->
+      <class name="journeys.test.ClientTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="delete()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="delete" duration-ms="47" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="afterMethod" is-config="true" duration-ms="15" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="findAll()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="findAll" duration-ms="15" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAll -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="findAllOrders()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="findAllOrders" duration-ms="16" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllOrders -->
+        <test-method status="PASS" signature="saveOrUpdate()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="saveOrUpdate" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveOrUpdate -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="afterMethod" is-config="true" duration-ms="30" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.ClientTest@17dd107]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:46Z" finished-at="2017-05-15T05:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- journeys.test.ClientTest -->
+      <class name="journeys.test.JourneyTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="beforeMethod" is-config="true" duration-ms="2015" started-at="2017-05-15T05:18:43Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="delete()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="delete" duration-ms="194" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="afterMethod" is-config="true" duration-ms="13" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="findAll()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="findAll" duration-ms="38" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAll -->
+        <test-method status="PASS" signature="getClients()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="getClients" duration-ms="46" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClients -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="afterMethod" is-config="true" duration-ms="16" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getFullShedule()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="getFullShedule" duration-ms="15" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFullShedule -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getOrders()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="getOrders" duration-ms="31" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrders -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getSheduleWithDirection()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="getSheduleWithDirection" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSheduleWithDirection -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="afterMethod" is-config="true" duration-ms="15" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getSheduleWithStation()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="getSheduleWithStation" duration-ms="12" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSheduleWithStation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="saveOrUpdate()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="saveOrUpdate" duration-ms="11" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveOrUpdate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.JourneyTest@d1af89]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- journeys.test.JourneyTest -->
+      <class name="journeys.test.CompanyTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="delete()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="delete" duration-ms="16" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="afterMethod" is-config="true" duration-ms="5" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="findAll()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="findAll" duration-ms="48" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAll -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="afterMethod" is-config="true" duration-ms="31" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="findAllClients()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="findAllClients" duration-ms="15" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllClients -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="afterMethod" is-config="true" duration-ms="16" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="saveOrUpdate()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="saveOrUpdate" duration-ms="15" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveOrUpdate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:journeys.test.CompanyTest@646db9]" name="afterMethod" is-config="true" duration-ms="15" started-at="2017-05-15T05:18:45Z" finished-at="2017-05-15T05:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- journeys.test.CompanyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
